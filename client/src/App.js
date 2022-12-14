@@ -21,9 +21,9 @@ function App() {
             path='/' 
             element={<SearchBooks />} 
           />
-          <Route 
+          <Route
             path='/saved' 
-            element={<SavedBooks />} 
+            element={<SavedBooks />}
           />
           <Route 
             path='*'

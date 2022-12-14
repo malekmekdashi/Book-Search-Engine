@@ -13,11 +13,6 @@ const SavedBooks = () => {
   const [removeBook, { error } ] = useMutation(REMOVE_BOOK);
   const userData = data?.me || {};
 
-  if(!userData?.username) {
-    return(
-      <h4>Here are your books!</h4>
-    )
-  }
 
 
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
